@@ -1,3 +1,20 @@
+Built an TWITTER like UI
+Functionality of this Projects-
+1.Built an User Interface where user can create a Post,display his Post,View his/her own Post and also he/her can view other Posts also.
+2.Posts are visible to all the users.
+3.Only loggedIn users should be able to create new posts, edit posts, delete posts.
+4.Used NextAuth libaray(Authentication of NextJS) to build Google Oauth for signIn and signOut functionality. 5. Firebase is used for storing user and his Post information .
+6.Also enabled firebase storage for storing images of user s post.
+7.Application is be responsive according to device screen size (used Tailwind CSS -libaray of CSS and also built by makers of NextJS).
+8.The user who created the post he can only delete his/her post and cannot delete others post.
+9.Also did ServerSideRendering to fetch users session.
+
+Additional Functionality-
+10.User can like his/her own post and also others post also.
+11.Added Emoji mart so that user can add emoji to his/her post.
+12.Also add moment to show the time when user has posted.
+13.Used Recoil for state management.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -26,9 +43,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
